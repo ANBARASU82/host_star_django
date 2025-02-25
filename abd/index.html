@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="contact.css">
+        <script>
+            function toggleMenu() {
+                document.querySelector('.navbar').classList.toggle('active');
+            }
+        </script>
+    </head>
+    <body>
+        <div id="particles-js"></div>
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <i class='bx bx-menu'></i>
+            </div>
+            <nav class="navbar">
+                <a href="index.html" style="--i:1;" class="active">home</a>
+                <a href="about.html" style="--i:2;">About</a>
+                <a href="Skills.html" style="--i:3;">Skills</a>
+                <a href="project.html" style="--i:4;">Projects</a> 
+                <a href="contact.html" style="--i:5;">Contact</a>
+            </nav>
+        </header>
+        
+        <section class="contact">
+            <div class="contact-content">
+                <h3>Hello</h3>
+                <h1>I'm ANBARASU K</h1>
+                <h3>And I'm a <span>Passionate B.tech Student</span></h3>
+                <p>With a strong foundation in Python, Machine Learning, and Data Structures, I have actively applied my skills to solve real-world problems through projects like AI-based motion tracking and exoplanet star age prediction.</p>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/anbarasu-k-32298a269/" style="--i:6;"><i class='bx bxl-linkedin'></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1koU4FoizQesVrP5MIkPk4JBrMblAyvQV/view?usp=sharing" class="btm">Download CV</a>
+            </div>
+            <div class="contact-img">
+                <img src="mine.png">
+            </div>
+        
+        </section>
+    
+    <script src="particles.js-master/particles.js"></script>
+    <script src="particles.js-master/demo/js/app.js"></script>
+    </body>
